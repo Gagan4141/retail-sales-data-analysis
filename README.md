@@ -29,7 +29,7 @@ This project analyzes a retail transaction dataset to uncover insights into cust
 
 ## 📊 Key Insights
 
-- **Total Transactions:** 6,884  
+- **Total respondant:** 6,884  
 - **Average Transaction Value:** ₹70.00  
 - **Responders:** 647 (≈9.4%)  
 - **Non-responders:** 6,237 (≈90.6%)  
