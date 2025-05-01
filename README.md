@@ -29,13 +29,12 @@ This project analyzes a retail transaction dataset to uncover insights into cust
 
 ## 📊 Key Insights
 
-- **Total Transactions:** 124,969  
-- **Average Transaction Value:** ₹64.99  
-- **Response Rate:** 11.1%  
-- **Responders:** 13,842  
-- **Non-responders:** 111,127  
-- **Top 10 Customers Identified**  
-- **Monthly Sales Trends** analyzed to uncover seasonal patterns.
+- **Total Transactions:** 6,884  
+- **Average Transaction Value:** ₹70.00  
+- **Responders:** 647 (≈9.4%)  
+- **Non-responders:** 6,237 (≈90.6%)  
+- **Top 10 Customers Identified by Total Spend**  
+- **Monthly Sales Trends:** Aggregated revenue and transaction counts show seasonality.
 
 ---
 
@@ -67,7 +66,7 @@ This project analyzes a retail transaction dataset to uncover insights into cust
 ### 📬 Marketing Response Patterns
 
 - **Monthly Response Rate:**  
-  Higher campaign engagement was seen during Q2, possibly due to timing or relevant offers.
+  SQL calculates monthly responder ratios to track campaign effectiveness over time.
 
 - **Customer Value Comparison:**  
   Responders had a higher average transaction value than non-responders.
@@ -84,6 +83,13 @@ This project analyzes a retail transaction dataset to uncover insights into cust
 
 - **Re-engagement Plan:**  
   These customers can be targeted with personalized reactivation campaigns.
+
+---
+
+## 🗃️ Data Sources
+
+- `retail_transactions`: Contains `customer_id`, `trans_date`, and `tran_amount`.
+- `retail_response`: Contains `customer_id` and `response` (0 or 1) for marketing campaign participation.
 
 ---
 
@@ -121,3 +127,4 @@ LinkedIn: [Gagan Kumar](https://www.linkedin.com/in/gagan-kumar-801445191)
 ---
 
 > **Note:** This project is part of a portfolio to demonstrate data analysis, visualization, and storytelling skills for business decision-making.
+
